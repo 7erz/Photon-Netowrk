@@ -1,0 +1,627 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.4f1 (35713cd46cd7) revision 3502396'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'ko' Physical Memory: 32471 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2022.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/msi/Documents/SBS Academy/Photon-Netowrk/Photon Example
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+9414
+Successfully changed project path to: C:/Users/msi/Documents/SBS Academy/Photon-Netowrk/Photon Example
+C:/Users/msi/Documents/SBS Academy/Photon-Netowrk/Photon Example
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [12648] Host "[IP] 192.168.0.9 [Port] 0 [Flags] 2 [Guid] 4291934366 [EditorId] 4291934366 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GOGA4AJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [12648] Host "[IP] 192.168.0.9 [Port] 0 [Flags] 2 [Guid] 4291934366 [EditorId] 4291934366 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GOGA4AJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 12.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.4f1 (35713cd46cd7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/msi/Documents/SBS Academy/Photon-Netowrk/Photon Example/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 Laptop GPU (ID=0x2820)
+    Vendor:   NVIDIA
+    VRAM:     7963 MB
+    Driver:   31.0.15.4633
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2022.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56596
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004467 seconds.
+- Loaded All Assemblies, in  0.373 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.297 seconds
+Domain Reload Profiling: 668ms
+	BeginReloadAssembly (100ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (169ms)
+		LoadAssemblies (98ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (159ms)
+			TypeCache.Refresh (159ms)
+				TypeCache.ScanAssembly (142ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (297ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (223ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (151ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\msi\Documents\SBS Academy\Photon-Netowrk\Photon Example\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\msi\Documents\SBS Academy\Photon-Netowrk\Photon Example\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.757 seconds
+Refreshing native plugins compatible for Editor in 4.60 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.584 seconds
+Domain Reload Profiling: 1338ms
+	BeginReloadAssembly (101ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (579ms)
+		LoadAssemblies (333ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (298ms)
+			TypeCache.Refresh (278ms)
+				TypeCache.ScanAssembly (264ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (584ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (450ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (371ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 10.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3439 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (62.3 KB). Loaded Objects now: 3896.
+Memory consumption went from 129.3 MB to 129.2 MB.
+Total: 2.470500 ms (FindLiveObjects: 0.253200 ms CreateObjectMapping: 0.102700 ms MarkObjects: 2.020500 ms  DeleteObjects: 0.092700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 613531.887098 seconds.
+  path: Assets/Resources/Room.prefab
+  artifactKey: Guid(90f42d3db2511994394ff859b7da1ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Room.prefab using Guid(90f42d3db2511994394ff859b7da1ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4a5316fb0ffdb04e65714ff50b2fafb') in 0.054689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.730685 seconds.
+  path: Assets/Resources/Room.prefab
+  artifactKey: Guid(90f42d3db2511994394ff859b7da1ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Room.prefab using Guid(90f42d3db2511994394ff859b7da1ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dbccfd1c59ca4486052b15a467ef401') in 0.014395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 11.981284 seconds.
+  path: Assets/Resources/Room.prefab
+  artifactKey: Guid(90f42d3db2511994394ff859b7da1ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Room.prefab using Guid(90f42d3db2511994394ff859b7da1ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef2e97083a78b3ba436d6b6c471c59b') in 0.013967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 6.735259 seconds.
+  path: Assets/Resources/Room.prefab
+  artifactKey: Guid(90f42d3db2511994394ff859b7da1ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Room.prefab using Guid(90f42d3db2511994394ff859b7da1ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d1f11edae2c1ee1d02a143df8ac3a91') in 0.012239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\msi\Documents\SBS Academy\Photon-Netowrk\Photon Example\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\msi\Documents\SBS Academy\Photon-Netowrk\Photon Example\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.736 seconds
+Refreshing native plugins compatible for Editor in 4.01 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.810 seconds
+Domain Reload Profiling: 1544ms
+	BeginReloadAssembly (137ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (535ms)
+		LoadAssemblies (261ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (332ms)
+			TypeCache.Refresh (322ms)
+				TypeCache.ScanAssembly (308ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (810ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (408ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (324ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 4.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3415 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (37.0 KB). Loaded Objects now: 3902.
+Memory consumption went from 124.7 MB to 124.7 MB.
+Total: 3.832100 ms (FindLiveObjects: 0.171900 ms CreateObjectMapping: 0.061500 ms MarkObjects: 3.507700 ms  DeleteObjects: 0.089700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 21.672919 seconds.
+  path: Assets/Resources/Room.prefab
+  artifactKey: Guid(90f42d3db2511994394ff859b7da1ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Room.prefab using Guid(90f42d3db2511994394ff859b7da1ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd278b01d2512f327ea254358d6f5811f') in 0.049176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 133.050073 seconds.
+  path: Assets/UI/Room/start-7732475_1280.png
+  artifactKey: Guid(b99a9371b42cd9944a1cc8a3ef268354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Room/start-7732475_1280.png using Guid(b99a9371b42cd9944a1cc8a3ef268354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f6e4ec8ab13357e5d599788829f6624') in 0.079563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2285.442005 seconds.
+  path: Assets/Scripts/RoomManager.cs
+  artifactKey: Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomManager.cs using Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34b4c8ecb1b9b511a013f3391ded2ca6') in 0.000856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 17.662449 seconds.
+  path: Assets/Scripts/RoomManager.cs
+  artifactKey: Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomManager.cs using Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6207f7bcf3f902c166ba76dfe4d66fa6') in 0.000587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 17.164438 seconds.
+  path: Assets/Scripts/RoomManager.cs
+  artifactKey: Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomManager.cs using Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efea29eb96133870b269d4fb42508a4c') in 0.000723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 106.648847 seconds.
+  path: Assets/Scripts/RoomManager.cs
+  artifactKey: Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomManager.cs using Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb2784028c4248aa60b99a1227401bb3') in 0.000442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 19.729706 seconds.
+  path: Assets/Scripts/RoomManager.cs
+  artifactKey: Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomManager.cs using Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5435768f6f985daa1756b0f19172d2e') in 0.000975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 19.093347 seconds.
+  path: Assets/Scripts/RoomManager.cs
+  artifactKey: Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomManager.cs using Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea3fe35bdfaa3bc38e39d4a18b9bf62') in 0.001884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.441656 seconds.
+  path: Assets/Scripts/RoomManager.cs
+  artifactKey: Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomManager.cs using Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7252db21125211649b206bb423e9ae85') in 0.000800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 117.246250 seconds.
+  path: Assets/Scripts/RoomManager.cs
+  artifactKey: Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomManager.cs using Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4486b5aac4d399b53518c0b43feed5fb') in 0.000713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.863533 seconds.
+  path: Assets/Scripts/RoomManager.cs
+  artifactKey: Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomManager.cs using Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a93215e55f30f387ac02fbe16a5597') in 0.000997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 35.675530 seconds.
+  path: Assets/Scripts/RoomManager.cs
+  artifactKey: Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomManager.cs using Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bba84d53b21060653067e7e59ca312ca') in 0.000616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 48.356267 seconds.
+  path: Assets/Scripts/RoomManager.cs
+  artifactKey: Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomManager.cs using Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33636bae3a4e6c3e98c3f5069c28ea70') in 0.000684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 45.340924 seconds.
+  path: Assets/Scripts/RoomManager.cs
+  artifactKey: Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomManager.cs using Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22cefc932f1883883eb334e5cb73862e') in 0.001078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 22.418059 seconds.
+  path: Assets/Scripts/RoomManager.cs
+  artifactKey: Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomManager.cs using Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63270fdf90544fd687a4e9a1aba85fa7') in 0.000777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 24.025995 seconds.
+  path: Assets/Scripts/RoomManager.cs
+  artifactKey: Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomManager.cs using Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60ff232d800076f86cc589880fc11a85') in 0.000860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 16.283933 seconds.
+  path: Assets/Scripts/RoomManager.cs
+  artifactKey: Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomManager.cs using Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0458ae74d2c19a0b2590ef5c14ecd692') in 0.000828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 19.398813 seconds.
+  path: Assets/Scripts/RoomManager.cs
+  artifactKey: Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomManager.cs using Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1d9acd93d6578309c27580da2f79601') in 0.000725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 43.884221 seconds.
+  path: Assets/Scripts/RoomManager.cs
+  artifactKey: Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomManager.cs using Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04cb6ac01c6021c05ae93d11abf9072a') in 0.000688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.983866 seconds.
+  path: Assets/Scripts/RoomManager.cs
+  artifactKey: Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomManager.cs using Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a518c8e77b6ce5c669ee7b95ad3ec5c') in 0.000691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 267.155655 seconds.
+  path: Assets/Scripts/RoomManager.cs
+  artifactKey: Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomManager.cs using Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86f19a7a2497f8ef60067440444ab968') in 0.000674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 38.939333 seconds.
+  path: Assets/Scripts/RoomManager.cs
+  artifactKey: Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomManager.cs using Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd81b830b1ecf45a230b1e8fcd0216ce8') in 0.000558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 79.612345 seconds.
+  path: Assets/Scripts/RoomManager.cs
+  artifactKey: Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomManager.cs using Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b9fc221938cc80cebf24afe1c40b632') in 0.001079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.985505 seconds.
+  path: Assets/Scripts/RoomManager.cs
+  artifactKey: Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomManager.cs using Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a64c4ac6640d4d7a080e2b579d917f4') in 0.001286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.619394 seconds.
+  path: Assets/Scripts/RoomManager.cs
+  artifactKey: Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomManager.cs using Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21c7197fa1fbd8344471edb43711390b') in 0.000706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 14.990532 seconds.
+  path: Assets/Scripts/RoomManager.cs
+  artifactKey: Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomManager.cs using Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '046a5072c03dc864d233a3f797187881') in 0.000752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.002124 seconds.
+  path: Assets/Scripts/RoomManager.cs
+  artifactKey: Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomManager.cs using Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f712724f4c72c09abae4aad299f7eb8f') in 0.000603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 96.162752 seconds.
+  path: Assets/Scripts/RoomManager.cs
+  artifactKey: Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomManager.cs using Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ae0e6b42adcf0318723ec724193afdb') in 0.000771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.793267 seconds.
+  path: Assets/Scripts/RoomManager.cs
+  artifactKey: Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomManager.cs using Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a471ff3bd6fdb12133769fdb92f477') in 0.001171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 253.733752 seconds.
+  path: Assets/Scripts/RoomManager.cs
+  artifactKey: Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomManager.cs using Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0157b95713d74fedbe30732ec82a6a44') in 0.000837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.392807 seconds.
+  path: Assets/Scripts/RoomManager.cs
+  artifactKey: Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomManager.cs using Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6482ed34e5f93ab6f62b9dab4ec4f1bd') in 0.000513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.383365 seconds.
+  path: Assets/Scripts/RoomManager.cs
+  artifactKey: Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomManager.cs using Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ad8d636dc54c507a8f0cf938b3e4eec') in 0.000666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 23.693196 seconds.
+  path: Assets/Scripts/RoomManager.cs
+  artifactKey: Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomManager.cs using Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b25e03a830fa7c0b2614d0f1bc21860') in 0.000712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 32.810323 seconds.
+  path: Assets/Scripts/RoomManager.cs
+  artifactKey: Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomManager.cs using Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e6221a5c950719d581cd3ffb1f3891') in 0.000983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 12.760534 seconds.
+  path: Assets/Scripts/RoomManager.cs
+  artifactKey: Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RoomManager.cs using Guid(498811d15e2c5254b8e55f01f43cb357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cca52555fadac11a826deac3ae9708c8') in 0.001068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\msi\Documents\SBS Academy\Photon-Netowrk\Photon Example\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\msi\Documents\SBS Academy\Photon-Netowrk\Photon Example\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.937 seconds
+Refreshing native plugins compatible for Editor in 5.23 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.830 seconds
+Domain Reload Profiling: 1764ms
+	BeginReloadAssembly (222ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (83ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (605ms)
+		LoadAssemblies (372ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (308ms)
+			TypeCache.Refresh (300ms)
+				TypeCache.ScanAssembly (281ms)
+			ScanForSourceGeneratedMonoScriptInfo (3ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (831ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (439ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (353ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 8.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3415 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (37.1 KB). Loaded Objects now: 3912.
+Memory consumption went from 129.1 MB to 129.1 MB.
+Total: 5.587100 ms (FindLiveObjects: 0.224700 ms CreateObjectMapping: 0.090400 ms MarkObjects: 5.126800 ms  DeleteObjects: 0.129900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
