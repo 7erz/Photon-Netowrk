@@ -9,7 +9,7 @@ using TMPro;  //어느 서버에 접속했을 때 이벤트를 호출하는 라이브러리
 public class RoomManager : MonoBehaviourPunCallbacks
 {
     public Button roomCreateButton;
-    public Transform roomParentTransform;
+    public Transform roomParentTransform;       //룸이 생성될 위치
     public TMP_InputField roomNameInputField;
     public TMP_InputField roomPersonlInputField;
 
@@ -55,10 +55,11 @@ public class RoomManager : MonoBehaviourPunCallbacks
     public override void OnRoomListUpdate(List<RoomInfo> roomList)
     {
         //1. 룸 삭제
-
+        RemoveRoom();
         //2. 룸 업데이트
-
+        UpdateRoom(roomList);
         //3. 룸 생성
+        RoomCreate();
 
 
     }
@@ -94,6 +95,20 @@ public class RoomManager : MonoBehaviourPunCallbacks
             {
                 roomDictionary[roomList[i].Name] = roomList[i];
             }
+        }
+    }
+
+    public void RoomCreate()
+    {
+        //1. roomDictionary에 여러개의 Values의 값이 들어 있다면 RoomInfo에 넣어줌
+        foreach (RoomInfo roominfo in roomDictionary.Values)
+        {
+            //2. room 게임 오브젝트 생성
+            GameObject room = Instantiate(Resources.Load<GameObject>("Room"));
+            //3. room의 부모를 설정함
+            room.transform.SetParent(roomParentTransform);
+            //4. room에 대한 정보를 입력
+            room.GetComponent<Information>().RoomData(roominfo.Name, roominfo.PlayerCount, roominfo.MaxPlayers);
         }
     }
 }
