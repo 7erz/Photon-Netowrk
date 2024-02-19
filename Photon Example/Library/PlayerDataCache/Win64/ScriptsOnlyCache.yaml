@@ -3,11 +3,11 @@ ScriptsOnlyBuild:
     Assembly-CSharp:
     - Alarm
     - Information
+    - Nickname
     - PhotonPlayer
     Assembly-CSharp.dll:
     - ConnectServer
     - GameManager
-    - PhotonPlayer
     - PlayFabManager
     - RoomManager
     PhotonUnityNetworking:
@@ -26,10 +26,7 @@ ScriptsOnlyBuild:
     - Photon.Pun.Demo.PunBasics.PlayerUI
     - Photon.Pun.Demo.SlotRacer.PlayerControl
     - Photon.Pun.Demo.SlotRacer.Utils.SplineWalker
-    PhotonUnityNetworking.Editor.dll:
-    - Photon.Pun.PunSceneSettings
     PhotonUnityNetworking.dll:
-    - Photon.Pun.PhotonView
     - Photon.Pun.ServerSettings
     PlayFab:
     - PlayFabSharedSettings
@@ -269,9 +266,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6482}
     - Class: 114
-      Script: {instanceID: 6920}
+      Script: {instanceID: 6922}
     - Class: 114
-      Script: {instanceID: 7620}
+      Script: {instanceID: 7622}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -388,15 +385,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6480}
     - Class: 114
-      Script: {instanceID: 7088}
+      Script: {instanceID: 6878}
     - Class: 114
-      Script: {instanceID: 7616}
+      Script: {instanceID: 7090}
     - Class: 114
-      Script: {instanceID: 7974}
+      Script: {instanceID: 7618}
     - Class: 114
-      Script: {instanceID: 8100}
+      Script: {instanceID: 7976}
     - Class: 114
-      Script: {instanceID: 8410}
+      Script: {instanceID: 8102}
+    - Class: 114
+      Script: {instanceID: 8412}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1744,6 +1743,12 @@ ScriptsOnlyBuild:
     className: OnClickDestroy
   - hash:
       serializedVersion: 2
+      Hash: f01f31d9f779963a9653a552f847a061
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Nickname
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -2191,5 +2196,5 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Photon Setting.unity
   - Assets/Scenes/Photon Lobby.unity
   - Assets/Scenes/Photon Game.unity
-  playerPath: C:/Users/msi/Documents/SBS Academy/Photon-Netowrk/Photon Example/Build/Photon
+  playerPath: C:/Users/msi/Documents/SBS Academy/Photon-Netowrk/Photon Example/Builds/Photon
     Example.exe
