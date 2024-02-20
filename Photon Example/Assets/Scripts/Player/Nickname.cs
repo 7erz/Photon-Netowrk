@@ -14,9 +14,7 @@ public class Nickname : MonoBehaviourPunCallbacks
 
     private void Start()
     {
-        //Debug.Log(getAccountInfoResult.AccountInfo.TitleInfo.DisplayName);
         nickName.text = photonView.Owner.NickName;
-        //nickName.text = PhotonNetwork.LocalPlayer.NickName;
     }
 
     private void Update()
