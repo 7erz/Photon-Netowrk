@@ -4,7 +4,11 @@ using UnityEngine;
 
 public class CamaraManager : MonoBehaviour
 {
-    [SerializeField] float scrollSpeed = 100.0f;
+    
+    [SerializeField] float currentRotationX;
+    [SerializeField] float cameraRotationLimit = 85f;
+    [SerializeField] float scrollSpeed = 150.0f;
+    [SerializeField] float sensitivity = 100f;
     
     void Start()
     {
@@ -13,6 +17,17 @@ public class CamaraManager : MonoBehaviour
 
     void Update()
     {
-        
+        RotateCamera();
+    }
+
+    public void RotateCamera()
+    {
+        float xRotation = Input.GetAxisRaw("Mouse Y");
+        float cameraRotationX = xRotation * sensitivity;
+        currentRotationX -= cameraRotationX;
+        //Clamp cameraRotationX instead of currentRotationX
+        currentRotationX = Mathf.Clamp(currentRotationX, -cameraRotationLimit, cameraRotationLimit);
+
+        transform.localEulerAngles = new Vector3(currentRotationX, 0, 0);
     }
 }
