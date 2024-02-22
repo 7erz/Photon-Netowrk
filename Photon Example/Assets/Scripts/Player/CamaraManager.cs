@@ -8,7 +8,7 @@ public class CamaraManager : MonoBehaviour
     [SerializeField] float currentRotationX;
     [SerializeField] float cameraRotationLimit = 85f;
     [SerializeField] float scrollSpeed = 150.0f;
-    [SerializeField] float sensitivity = 100f;
+    [SerializeField] float sensitivity = 450f;
     
     void Start()
     {
@@ -24,7 +24,7 @@ public class CamaraManager : MonoBehaviour
     {
         float xRotation = Input.GetAxisRaw("Mouse Y");
         float cameraRotationX = xRotation * sensitivity;
-        currentRotationX -= cameraRotationX;
+        currentRotationX -= cameraRotationX * Time.deltaTime;
         //Clamp cameraRotationX instead of currentRotationX
         currentRotationX = Mathf.Clamp(currentRotationX, -cameraRotationLimit, cameraRotationLimit);
 

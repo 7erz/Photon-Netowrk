@@ -212,7 +212,7 @@ MonoBehaviour:
   currentRotationX: 0
   cameraRotationLimit: 60
   scrollSpeed: 150
-  sensitivity: 20
+  sensitivity: 450
 --- !u!1 &4839677595557528445
 GameObject:
   m_ObjectHideFlags: 0
@@ -660,6 +660,7 @@ GameObject:
   - component: {fileID: 2230948723381756692}
   - component: {fileID: 3943710707561603664}
   - component: {fileID: 4399856673412552356}
+  - component: {fileID: 7805177906666451332}
   - component: {fileID: 3307421548183043601}
   - component: {fileID: 3356741050038362122}
   m_Layer: 0
@@ -784,6 +785,24 @@ MonoBehaviour:
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &7805177906666451332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9125807095320738727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c8931ac82ecb7449ae5f784c2cab492, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 8858057944613832015}
+  gunFireTransform: {fileID: 66211376027783262}
+  attack: 34
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!114 &3307421548183043601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -798,7 +817,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   mouseX: 0
-  rotateSpeed: 100
+  rotateSpeed: 1200
   direction: {x: 0, y: 0, z: 0}
   temporaryCamera: {fileID: 8858057944613832015}
 --- !u!114 &3356741050038362122
@@ -897,5 +916,10 @@ PrefabInstance:
 --- !u!4 &66211376027783234 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 286675334516284781, guid: f337f68fed431244e98c8161d82439e8, type: 3}
+  m_PrefabInstance: {fileID: 221031901610921263}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &66211376027783262 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 286675334516284785, guid: f337f68fed431244e98c8161d82439e8, type: 3}
   m_PrefabInstance: {fileID: 221031901610921263}
   m_PrefabAsset: {fileID: 0}
