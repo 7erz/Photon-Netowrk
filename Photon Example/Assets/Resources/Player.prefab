@@ -818,6 +818,7 @@ MonoBehaviour:
   speed: 10
   mouseX: 0
   rotateSpeed: 1200
+  score: 0
   direction: {x: 0, y: 0, z: 0}
   temporaryCamera: {fileID: 8858057944613832015}
 --- !u!114 &3356741050038362122
