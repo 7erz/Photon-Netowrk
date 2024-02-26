@@ -41,6 +41,7 @@ public class MouseManager : MonoBehaviour
     {
         if (Input.GetKeyUp(KeyCode.Escape))
         {
+            Alarm.Show(AlarmType.PausePanel);
             if (lockMouse == LockMouse.LOCK)
             {
                 SetCursor(LockMouse.UNLOCK);

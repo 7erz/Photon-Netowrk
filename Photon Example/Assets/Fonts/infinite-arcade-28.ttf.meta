@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: a62a272e3913a3641928fc8a090d34a2
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Infinite Arcade 28
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 982a00f4d59b34d4ba833b5454761040, type: 3}
+  - {fileID: 12800000, guid: 40b650792a5b4ac49a9a034e292b6455, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
