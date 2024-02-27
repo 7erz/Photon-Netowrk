@@ -6,17 +6,27 @@ using TMPro;
 
 public class GameManager : MonoBehaviourPunCallbacks
 {
+    [SerializeField] TMP_Text timerText;
     [SerializeField] TMP_InputField nicknameInputField;
     [SerializeField] GameObject nicknamePanel;
+    [SerializeField] float timer;
+    [SerializeField] int minute, second;
     private void Awake()
     {
         CreatePlayer();
         CheckNickname();
+        
+    }
+
+    private void Start()
+    {
+        CheckPlayer();
     }
     private void CreatePlayer()
     {
         PhotonNetwork.Instantiate("Player",RandomPosition(5f),Quaternion.identity);
     }
+
 
     public Vector3 RandomPosition(float distance)
     {
@@ -31,7 +41,10 @@ public class GameManager : MonoBehaviourPunCallbacks
         return direction;
     }
 
+    public void Update()
+    {
 
+    }
 
     public override void OnMasterClientSwitched(Player newMasterClient)
     {
@@ -44,6 +57,21 @@ public class GameManager : MonoBehaviourPunCallbacks
         PlayerPrefs.SetString("Nick Name", nicknameInputField.text);
         PhotonNetwork.NickName = nicknameInputField.text;
         nicknamePanel.SetActive(false);
+    }
+
+    public void CheckPlayer()
+    {
+        Room currentRoom = PhotonNetwork.CurrentRoom;
+        if(currentRoom.PlayerCount >= currentRoom.MaxPlayers)
+        {
+            photonView.RPC("RemoteTimer",RpcTarget.All);
+        }
+    }
+
+    [PunRPC]
+    public void RemoteTimer()
+    {
+        StartCoroutine(StartTimer());
     }
 
     public void CheckNickname()
@@ -60,6 +88,50 @@ public class GameManager : MonoBehaviourPunCallbacks
         }
     }
 
+    public void Timer()
+    {
+        if(timer > 0)
+        {
+            timer -= Time.deltaTime;
+
+            if (timer < 0)
+            {
+                timer = 0;
+            }
+
+
+            minute = (int)timer / 60;
+            second = (int)timer % 60;
+
+            Debug.Log(minute + " " + second);
+
+            timerText.text = minute + " : " + second;
+        }
+    }
+
+    IEnumerator StartTimer()
+    {
+        while (true)
+        {
+            timer -= Time.deltaTime;
+
+            minute = (int)timer / 60;
+            second = (int)timer % 60;
+
+
+            timerText.text = minute.ToString("00") + " : " + second.ToString("00");
+
+            yield return null;
+
+            if(timer <= 0)
+            {
+                timer = 0;
+                yield break;
+            }
+        }
+    }
+
+   
     
 
 }

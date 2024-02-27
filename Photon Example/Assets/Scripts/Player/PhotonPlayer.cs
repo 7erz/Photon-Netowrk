@@ -4,12 +4,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class PhotonPlayer : MonoBehaviourPunCallbacks, IPunObservable
+public class PhotonPlayer : MonoBehaviourPunCallbacks//, IPunObservable
 {
     [SerializeField]float speed;
     [SerializeField]float mouseX;
     [SerializeField]float rotateSpeed;
-    [SerializeField]float score;
+    //[SerializeField]float score;
 
     [SerializeField] Vector3 direction;
     [SerializeField] Camera temporaryCamera;
@@ -65,7 +65,7 @@ public class PhotonPlayer : MonoBehaviourPunCallbacks, IPunObservable
         transform.eulerAngles = new Vector3(0, mouseX, 0);
     }
 
-    public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
+    /*public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
     {
         //로컬 오브젝트라면 쓰기 부분 실행
         if(stream.IsWriting)
@@ -75,9 +75,17 @@ public class PhotonPlayer : MonoBehaviourPunCallbacks, IPunObservable
         }
         else    //원격 오브젝트라면 읽기 부분을 실행
         {
+            try
+            {
+                score = (float)stream.ReceiveNext();
+            }
+            catch
+            {
+
+            }
             //네트워크를 통해서 데이터를 받음
-            score = (float)stream.ReceiveNext();
+            
         }
 
-    }
+    }*/
 }

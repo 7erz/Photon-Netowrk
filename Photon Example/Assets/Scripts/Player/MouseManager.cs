@@ -41,18 +41,19 @@ public class MouseManager : MonoBehaviour
     {
         if (Input.GetKeyUp(KeyCode.Escape))
         {
-            Alarm.Show(AlarmType.PausePanel);
-            if (lockMouse == LockMouse.LOCK)
-            {
-                SetCursor(LockMouse.UNLOCK);
-            }
-            else
-            {
-                SetCursor(LockMouse.LOCK);
-            }
-        }
-       
+            GameObject pausePanel = GameObject.Find("PausePanel");
 
+            if (pausePanel != null && pausePanel.activeSelf)
+            {
+                return;
+            }
+
+            Alarm.Show(AlarmType.PausePanel);
+
+            SetCursor(lockMouse == LockMouse.LOCK ? LockMouse.UNLOCK : LockMouse.LOCK);
+
+
+        }
     }
     
 }

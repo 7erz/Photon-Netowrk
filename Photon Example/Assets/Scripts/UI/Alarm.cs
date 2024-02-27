@@ -29,6 +29,13 @@ public class Alarm : MonoBehaviourPunCallbacks
     {
         GameObject window = Instantiate(Resources.Load<GameObject>(alarmType.ToString()));
     }
+    public void Continue()
+    {
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+
+        Destroy(gameObject);
+    }
 
     public void ExitRoom()
     {
